@@ -24,10 +24,8 @@ function newTask() {
         });
         localStorage.setItem(localStorageTasks, JSON.stringify(tasks));
         showTasks();
-        // Limpar o campo de entrada
         input.value = '';
 
-        // Alerta de sucesso
         alert(`Task added successfully.`);
     }
 }
